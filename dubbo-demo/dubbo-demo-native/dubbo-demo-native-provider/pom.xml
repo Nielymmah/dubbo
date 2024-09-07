@@ -30,8 +30,8 @@
 
     <properties>
         <skip_maven_deploy>true</skip_maven_deploy>
-        <curator5_version>5.1.0</curator5_version>
-        <zookeeper_version>3.8.1</zookeeper_version>
+        <curator5_version>5.7.0</curator5_version>
+        <zookeeper_version>3.9.2</zookeeper_version>
     </properties>
 
     <dependencies>
@@ -165,7 +165,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.33</version>
+            <version>1.7.36</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
